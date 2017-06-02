@@ -1,0 +1,21 @@
+{
+  "name": "building",
+  "description": "",
+  "main": "",
+  "authors": [
+    "lilic7 <zubcolilian@mail.ru>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/lilic7/building",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1"
+  }
+}

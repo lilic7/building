@@ -1,0 +1,25 @@
+.contact-form {
+  background: #fff;
+  border-radius: 10px;
+  margin-top: 20px;
+
+  label {
+    font-family: Tahoma, Helvetica, Arial, sans-serif;
+    color: $primary-color;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-top: 10px;
+  }
+
+  textarea {
+    height: 182px;
+  }
+
+  .buttons {
+    margin-left: -20px;
+  }
+
+  input[type=button] {
+    margin: 20px 15px;
+  }
+}

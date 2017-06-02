@@ -1,0 +1,207 @@
+//--------------------------Mixins-----------------------//
+
+@mixin item-background {
+  background-repeat: no-repeat;
+  background-position-y: 20%;
+  background-size: 20%;
+}
+
+
+//--------------------------Styles-----------------------//
+
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: url("/images/bg-body.gif");
+  font-family: 'PT Serif Caption', serif;
+  position: relative;
+}
+
+a {
+  color: $primary-color;
+
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+
+.btn-default {
+  padding: 6px 13px;
+}
+
+.panel {
+  background-image: url("/images/user2.png");
+  background-repeat: no-repeat;
+  background-size: 15%;
+  background-position-x: 50%;
+  padding-top: 100px;
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+  margin-top: 25px;
+}
+
+form h2 {
+  margin-bottom: 40px;
+}
+
+
+.page-content {
+  min-height: 100%;
+  position: relative;
+}
+
+#app {
+  padding-bottom: $footer-height + 20px;
+}
+
+ul{
+  list-style-type: none;
+  -webkit-padding-start: 0;
+}
+
+.intro {
+  text-align: center;
+  color: $primary-color;
+
+  p {
+    line-height: 1.8;
+  }
+}
+
+// add primary color to text of selected element
+.brand-color {
+  color: $primary-color;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+
+
+.gallery-item {
+  margin-top: 20px;
+
+  img {
+    width: 95%;
+    box-shadow: 1px 1px 1px #aaa;
+  }
+
+  img:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s, box-shadow 0.5s;
+    box-shadow: 2px 2px 2px #aaa;
+  }
+
+  p {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+}
+
+.selected-building {
+  color: red;
+}
+
+
+.project_select {
+  margin-top: 40px;
+  background: #fff;
+  padding: 30px 40px 20px;
+  border: 5px solid $primary-color;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px #888;
+
+  p {
+    font-size: 14px;
+    line-height: 1.2;
+
+    a {
+      text-transform: uppercase;
+      color: $primary-color;
+    }
+  }
+
+  .project_head{
+    padding-left: 100px;
+    height: 150px;
+  }
+
+  .location {
+    background: url("/images/loc2.png");
+    @include item-background;
+  }
+  
+  .building_type{
+    background: url("/images/build1.png");
+    @include item-background;
+  }
+
+  .project_parameters {
+    background: url("/images/par1.png");
+    @include item-background;
+  }
+
+  .calculate {
+    background: url("/images/doc1.png");
+    @include item-background;
+  }
+}
+
+
+.clc-table {
+  $clc-background: #fff;
+  $clc-border: $primary-color;
+
+  background-color: $clc-background;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 2px solid $clc-border;
+
+  .odd-row {
+    background-color: darken($clc-background, 8%);
+  }
+
+  .title-row {
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .bordered-top-row {
+    border-top: 1px solid $clc-border;
+  }
+
+
+  .double-height {
+    line-height: 120px;
+    font-size: 13px;
+  }
+
+  .clc-tab {
+    height: 100%;
+    line-height: 60px;
+    display: inline-block;
+    vertical-align: middle;
+
+    span {
+      display: inline-block;
+      vertical-align: middle;
+      line-height: normal;
+    }
+
+
+    &.with-padding {
+      padding-left: 30px;
+    }
+    &.center {
+      border-right: 1px solid $clc-border;
+      border-left: 1px solid $clc-border;
+    }
+  }
+}

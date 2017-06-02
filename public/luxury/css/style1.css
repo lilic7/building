@@ -1,0 +1,266 @@
+
+#login{
+	position:relative;
+	width:342px;
+	height:348px;
+	transform:translate(150%);
+}
+#login1{
+	position:relative;
+	width:342px;
+	height:348px;
+	transform:translate(45%);
+}
+
+#login3{
+	position:relative;
+	margin: 0 0 0 300px;
+	font-size:20px;
+	color:#ff7518;
+	
+}
+#login4{
+	position:absolute;
+	top:83px;
+	left:750px;
+	font-size:20px;
+}
+#login5{
+	position:relative;
+	margin: 50px 0 100px 240px;
+	font-size:20px;
+	color:#ff7518;
+}
+#login3 sbt{
+	color:black;
+	display:block;
+	margin:0 auto;
+	font-size:14px;
+}
+#login4 sbt1{
+	display:block;
+	left:400px;
+	top:10px;
+	font-size:14px;
+}
+#tbs1{
+	background:#ff7518;
+	font-family: 'PT Serif Caption', serif;
+	width:340px;
+	cursor:pointer;
+	color:white;
+	height:40px;
+	font-size:16px;
+	text-align:center;
+	vertical-align:middle;
+	line-height:20px;
+	border-radius:5px;
+	margin-bottom:25px;
+}
+#tbs2{
+	position:relative;
+	background:#ff7518;
+	font-family: 'PT Serif Caption', serif;
+	left:50px;
+	width:150px;
+	cursor:pointer;
+	color:white;
+	height:25px;
+	font-size:16px;
+	text-align:center;
+	vertical-align:middle;
+	line-height:20px;
+	border-radius:5px;
+}
+#login3 #sbt2{
+	width:250px;
+}
+#login4 #sbt2{
+	width:250px;
+}
+
+#login1 input{
+	background:rgba(0,0,0,0.3);
+	outline:none;
+	border:1px solid rgba(0,0,0,0.3);
+	border-radius:5px;
+	box-shadow:inset 0px -5px 45px rgba(100,100,100,0.2),0px,1px,1px rgba(255,255,255,0.2);
+}
+#login h21{
+	position:relative;
+	left:-5px; 
+	font-style:bold;
+	font-family: 'PT Serif Caption', serif;
+	font-size: 29px;
+}
+#login h22{
+	position:relative;
+	left:115px;
+	font-style:bold;
+	font-family: 'PT Serif Caption', serif;
+	font-size: 45px;
+}
+#login input{
+	display:block;
+	width:318px;
+	height:20px;
+	padding:10px;
+	font-size:14px;
+	font-family:'PT Serif Caption', serif;
+	color:white;
+	background:rgba(0,0,0,0.3);
+	outline:none;
+	border:1px solid rgba(0,0,0,0.3);
+	border-radius:5px;
+	box-shadow:inset 0px -5px 45px rgba(100,100,100,0.2),0px,1px,1px rgba(255,255,255,0.2);
+	margin-bottom:10px;
+	
+}
+
+#login #login-btn{
+	background:#ff7518;
+	width:340px;
+	height:40px;
+	font-size:18px;
+	text-align:center;
+	vertical-align:middle;
+	line-height:20px;
+	cursor:pointer;
+}
+
+#login  #btn1{
+	background:#ff7518;
+	cursor:pointer;
+	height:35px;
+	font-size:16px;
+	text-align:center;
+	vertical-align:middle;
+	line-height:20px;	
+}
+#login1 #btn1{
+	position:relative;
+	left:75px;
+	background:#ff7518;
+	font-family: 'PT Serif Caption', serif;
+	width:150px;
+	cursor:pointer;
+	color:white;
+	height:35px;
+	font-size:16px;
+	text-align:center;
+	vertical-align:middle;
+	line-height:20px;
+	border-radius:5px;
+}
+#emailbtn {
+width:293px;
+}
+
+#country {
+width:220px;
+}
+
+#box{
+	position:relative;
+	top:5px;
+	width:600px;
+	height:329px;
+	margin:0 auto;
+	border-radius:5px;
+	color:#ff7518;
+	background-color:white;
+}
+#box1{
+	position:relative;
+	top:-5px;
+	width:610px;
+	height:339px;
+	margin:0 auto;
+	color:#ff7518;
+	background:rgba(0,0,0,0.3);
+	outline:none;
+	border:5px solid rgba(0,0,0,0.3);
+	border-radius:5px;
+	box-shadow:inset 0px -5px 45px rgba(100,100,100,0.2),0px,1px,1px rgba(255,255,255,0.2);
+}
+#box2{
+	position:relative;
+	width:1020px;
+	height:420px;
+	margin:0 auto;
+	border-radius:5px;
+	background-color:#ff7518;
+}
+#box3{
+	position:relative;
+	width:1000px;
+	height:400px;
+	margin:0 auto;
+	top:7px;
+	border-radius:5px;
+	border:3px solid rgb(57,54,51);
+	background-color:white;
+}
+#box3 loc2{
+	position:relative;
+	top:-180px;
+	left:-150px;
+	cursor:pointer;
+}
+#box3 par1{
+	position:relative;
+	top:-180px;
+	left:181px;
+	cursor:pointer;
+}
+#box3 build1{
+	position:relative;
+	top:-35px;
+	left:-357px;
+	cursor:pointer;
+	
+}
+#box3 doc1{
+	position:relative;
+	top:-35px;
+	left:-27px;
+	cursor:pointer;
+}
+
+#box3 w1{
+	position:relative;
+	color:#ff7518;
+	top:65px;
+	left:190px;
+}
+#box3 w11{
+	text-transform:none;
+	color:black;
+	font-family: calibri;
+	font-size:14px;
+}
+#box3 w2{
+	position:absolute;
+	color:#ff7518;
+	top:65px;
+	left:625px;
+}
+#box3 w22{
+	color:black;
+	text-transform:none;
+	font-family: calibri;
+	font-size:14px;
+}
+
+#box3 w33{
+	text-transform:none;
+	color:black;
+	font-family: calibri;
+}
+
+#box3 w44{
+	text-transform:none;
+	color:black;
+	font-family: calibri;
+	font-size:14px;
+}

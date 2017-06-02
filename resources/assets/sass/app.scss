@@ -1,0 +1,19 @@
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "abstract/variables";
+
+// font-awesome
+@import "resources/assets/bower/font-awesome/scss/font-awesome";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import "parts/header";
+@import "parts/footer";
+
+@import "parts/contacts";
+
+@import "styles";

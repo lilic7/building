@@ -1,0 +1,23 @@
+.navbar-default {
+  background: url("/images/tail-header.gif");
+  border-bottom: 1px solid #cccccc;
+  box-shadow: 1px 1px 0 #fff;
+
+  .navbar-nav > li > a {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+}
+
+.navbar-header {
+  width: 35%;
+}
+
+.navbar-brand {
+  padding: 15px 0 0;
+  width: 100%;
+
+  img {
+    width: 100%;
+  }
+}

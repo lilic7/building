@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contacts</title>
+<meta charset="utf-8">
+<!--css-->
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
+<link rel="icon" href="images/LBlogo.png" type="image/x-icon">
+<link rel="shortcut icon" href="images/LBlogo.png" type="image/x-icon" />
+<!--<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif+Caption:400,400italic"  type="text/css">-->
+<!--js-->
+<script type="text/javascript" src="js/jquery-1.7.1.min.js" ></script>
+<script type="text/javascript" src="js/superfish.js"></script>
+<script type="text/javascript" src="js/forms.js"></script>
+<script type="text/javascript">
+    $(function(){
+	 $('#contact-form').forms({
+	  ownerEmail:'#'
+	 })
+	})
+</script>
+</head>
+<body>
+
+<!--==============================header=================================-->
+<header>
+  <div class="main">
+    <div class="row-top">
+      <h1><a href="Home.html"><img alt="" src="images/LB.png"></a></h1>
+      <nav>
+        <ul class="sf-menu">
+          <li><a href="Home.html"><b>Home</b></a></li>
+          <li><a href="Gallery.html"><b>Gallery</b> </a> </li>
+		  <li><a href="Calculator.html"><b>Calculator</b></a> </li>
+          <li><a href="Contacts.html"><b>Contacts</b></a> </li>
+        </ul>
+      </nav>
+      <div class="clear"></div>
+    </div>
+  </div>
+</header>
+
+<!--==============================content=================================-->
+<section id="content"><div class="ic"></div>
+  <div class="border-horiz"></div>
+  <div class="main">
+    <h3>Contact us</h3>
+    <div class="box-address">
+      <h4>Luxury Building</h4>
+      <dl class="address">
+        <dt>Building Costa Blanca | Alicante | Murcia | Elche | Torrevieja</dt>
+        <dd> <span>Mobile:</span> 671 251 856</dd>
+        <dd> <span>Mobile:</span> 622 133 300</dd>
+        <dd> E-mail: <a class="mail-1" ><font face="verdana" color="#ff7518 ">info@buildingscostablanca.com</a> </dd>
+      </dl>
+    </div>
+    <div class="map box-img">
+	<a href="https://www.google.com/maps/place/%D0%A2%D0%BE%D1%80%D1%80%D0%B5%D0%B2%D1%8C%D0%B5%D1%85%D0%B0,+%D0%90%D0%BB%D0%B8%D0%BA%D0%B0%D0%BD%D1%82%D0%B5,+%D0%98%D1%81%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F/@37.9947244,-0.7746548,12z/data=!3m1!4b1!4m5!3m4!1s0xd630757a8945797:0x6e8ae3f6ad2c3bf5!8m2!3d37.9975875!4d-0.6962853">
+	<img alt="" style="margin-left: 100px;" style="margin-top: 60px;" width="500" height="200" src="images/map.png"></a>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div class="box-contact">
+    <h3>Contact Form</h3>
+    <form id="contact-form">
+      <div class="success"> Contact form submitted! <strong>We will be in touch soon.</strong> </div>
+      <fieldset>
+        <div class="coll-1">
+          <div>
+            <div class="form-txt">Name:</div>
+            <label class="name">
+              <input type="text">
+              <span class="error">*Is not valid.</span> <span class="empty">*You must complete this.</span> </label>
+            <div class="clear"></div>
+          </div>
+          <div>
+            <div class="form-txt">Phone:</div>
+            <label class="phone">
+              <input type="tel">
+              <span class="error">*Is not valid.</span> <span class="empty">*You must complete this.</span> </label>
+            <div class="clear"></div>
+          </div>
+          <div>
+            <div class="form-txt">E-mail:</div>
+            <label class="email">
+              <input type="email">
+              <span class="error">*Is not valid.</span> <span class="empty">*You must complete this.</span> </label>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <div class="coll-2">
+          <div>
+            <div class="form-txt">Message:</div>
+            <label class="message">
+              <textarea></textarea>
+              <span class="error">*Is not valid.</span> <span class="empty">*You must complete this.</span> </label>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <div class="clear"></div>
+        <div class="btns"> <a class="btn" data-type="reset">RESET</a> <a class="btn" data-type="submit">SEND</a> </div>
+      </fieldset>
+    </form>
+  </div>
+</section>
+
+<!--==============================footer=================================-->
+<footer>
+  <div class="main">
+    <div class="policy">All right reserved by Alex | &copy; 2016 <a href="http://luxury-building.com/" rel="nofollow"><b>LUXURY-BUILDING.COM</b></a> </div>
+    <div class="clear"></div>
+  </div>
+</footer>
+</body>
+</html>
